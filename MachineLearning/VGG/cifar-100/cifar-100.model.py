@@ -95,10 +95,10 @@ model = Sequential([
     Flatten(),
     # Layer 7
     Dense(units=256, activation='relu'),
-    Dropout(rate=0.4),
+    Dropout(rate=0.25),
     # Layer 8
     Dense(units=256, activation='relu'),
-    Dropout(rate=0.4),
+    Dropout(rate=0.25),
     # Layer 9
     Dense(units=100, activation='relu'),
     # Output layer
